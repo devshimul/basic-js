@@ -30,7 +30,7 @@ console.log(a);
 
 const applePrice = 350;
 console.log(applePrice);
-*/
+
 // Data type
 // Number
 // String
@@ -67,3 +67,42 @@ let lastName = "Hossain";
 let fullName = firstName + lastName;
 // console.log(firstName.concat(lastName));
 // console.log(fullName);
+
+// Mathmatical Operator
+*/
+let x = 15;
+let y = 12;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+
+// Comparison operator => <, >, <=, >=, !==
+console.log(x <= y);
+
+let money = 100;
+let applePrice = 120;
+let bananaPrice = 20;
+// if(){}
+if (money > applePrice) {
+  console.log("I love to eat apple");
+} else if (money > bananaPrice) {
+  console.log("I love to eat Banana");
+} else {
+  console.log("Tumi tmr babar kache theke tk niye aso");
+}
+
+let num1 = prompt("Please type your frist number: ");
+let num2 = prompt("Please type your second number: ");
+
+num1 = parseInt(num1);
+num2 = parseInt(num2);
+
+console.log(num1, num2);
+
+console.log("Sum = ", num1 + num2);
+console.log("Sub = ", num1 - num2);
+console.log("Multiply = ", num1 * num2);
+console.log("Devide = ", num1 / num2);
+console.log("Modulu = ", num1 % num2);
